@@ -11,9 +11,13 @@ get_header(); ?>
 
 	<div class="container">
 		
-		<footer>
-			<p>&copy; Company 2012</p>
-		</footer>
+		<div class="row">
+			
+			
+			
+		</div>
+		
 	</div> <!-- /container -->
+	
 
 <?php get_footer(); ?>

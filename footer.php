@@ -7,6 +7,18 @@
  * @author     Jake Spurlock <jspurlock@makermedia.com>
  *
  */
-wp_footer(); ?>
+ ?>
+
+ 	<footer>
+ 		
+ 		<div class="content">
+ 			
+ 			
+ 			
+ 		</div>
+ 		
+ 	</footer>
+
+<?php wp_footer(); ?>
 </body>
 </html>
