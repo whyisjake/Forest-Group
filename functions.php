@@ -13,6 +13,7 @@
  */
 
 require_once( WP_CONTENT_DIR . '/themes/vip/plugins/vip-init.php' );
+wpcom_vip_load_plugin( 'easy-custom-fields' );
  
 function fg_enqueue_scripts() {
 	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.js', array( 'jquery' ), false, true );
@@ -70,8 +71,8 @@ function fg_get_weather() {
 }
 
 
-function events_init() {
-	register_post_type( 'events', array(
+function event_init() {
+	register_post_type( 'event', array(
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_in_nav_menus'   => true,
@@ -81,47 +82,63 @@ function events_init() {
 		'query_var'           => true,
 		'rewrite'             => true,
 		'labels'              => array(
-			'name'                => __( 'Events', 'fg' ),
-			'singular_name'       => __( 'Events', 'fg' ),
-			'add_new'             => __( 'Add new events', 'fg' ),
+			'name'                => __( 'Event', 'fg' ),
+			'singular_name'       => __( 'Event', 'fg' ),
+			'add_new'             => __( 'Add new event', 'fg' ),
 			'all_items'           => __( 'Events', 'fg' ),
-			'add_new_item'        => __( 'Add new events', 'fg' ),
-			'edit_item'           => __( 'Edit events', 'fg' ),
-			'new_item'            => __( 'New events', 'fg' ),
-			'view_item'           => __( 'View events', 'fg' ),
+			'add_new_item'        => __( 'Add new event', 'fg' ),
+			'edit_item'           => __( 'Edit event', 'fg' ),
+			'new_item'            => __( 'New event', 'fg' ),
+			'view_item'           => __( 'View event', 'fg' ),
 			'search_items'        => __( 'Search events', 'fg' ),
-			'not_found'           => __( 'No events found', 'fg' ),
-			'not_found_in_trash'  => __( 'No events found in trash', 'fg' ),
-			'parent_item_colon'   => __( 'Parent events', 'fg' ),
-			'menu_name'           => __( 'Events', 'fg' ),
+			'not_found'           => __( 'No event found', 'fg' ),
+			'not_found_in_trash'  => __( 'No event found in trash', 'fg' ),
+			'parent_item_colon'   => __( 'Parent event', 'fg' ),
+			'menu_name'           => __( 'Event', 'fg' ),
 		),
 	) );
 
 }
-add_action( 'init', 'events_init' );
+add_action( 'init', 'event_init' );
 
-function events_updated_messages( $messages ) {
+function event_updated_messages( $messages ) {
 	global $post;
 
 	$permalink = get_permalink( $post );
 
-	$messages['events'] = array(
+	$messages['event'] = array(
 		0 => '', // Unused. Messages start at index 1.
-		1 => sprintf( __('Events updated. <a target="_blank" href="%s">View events</a>', 'fg'), esc_url( $permalink ) ),
+		1 => sprintf( __('event updated. <a target="_blank" href="%s">View event</a>', 'fg'), esc_url( $permalink ) ),
 		2 => __('Custom field updated.', 'fg'),
 		3 => __('Custom field deleted.', 'fg'),
-		4 => __('Events updated.', 'fg'),
+		4 => __('Event updated.', 'fg'),
 		/* translators: %s: date and time of the revision */
-		5 => isset($_GET['revision']) ? sprintf( __('Events restored to revision from %s', 'fg'), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
-		6 => sprintf( __('Events published. <a href="%s">View events</a>', 'fg'), esc_url( $permalink ) ),
-		7 => __('Events saved.', 'fg'),
-		8 => sprintf( __('Events submitted. <a target="_blank" href="%s">Preview events</a>', 'fg'), esc_url( add_query_arg( 'preview', 'true', $permalink ) ) ),
-		9 => sprintf( __('Events scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview events</a>', 'fg'),
+		5 => isset($_GET['revision']) ? sprintf( __('Event restored to revision from %s', 'fg'), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+		6 => sprintf( __('Event published. <a href="%s">View event</a>', 'fg'), esc_url( $permalink ) ),
+		7 => __('Event saved.', 'fg'),
+		8 => sprintf( __('Event submitted. <a target="_blank" href="%s">Preview event</a>', 'fg'), esc_url( add_query_arg( 'preview', 'true', $permalink ) ) ),
+		9 => sprintf( __('Event scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview event</a>', 'fg'),
 		// translators: Publish box date format, see http://php.net/date
 		date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ), esc_url( $permalink ) ),
-		10 => sprintf( __('Events draft updated. <a target="_blank" href="%s">Preview events</a>', 'fg'), esc_url( add_query_arg( 'preview', 'true', $permalink ) ) ),
+		10 => sprintf( __('Event draft updated. <a target="_blank" href="%s">Preview Event</a>', 'fg'), esc_url( add_query_arg( 'preview', 'true', $permalink ) ) ),
 	);
 
 	return $messages;
 }
-add_filter( 'post_updated_messages', 'events_updated_messages' );
+add_filter( 'post_updated_messages', 'event_updated_messages' );
+
+$field_data = array (
+	'advanced_testgroup' => array (
+		'fields' => array(
+			'StartTime'		=> array(),
+			'EndTime'		=> array(),
+			'Date'			=> array(),
+			'Location'		=> array(),
+	),
+	'title'		=> 'Event Meta',
+	'context'	=> 'side',
+	'pages'		=> array( 'event' ),
+	),
+);
+
+$easy_cf = new Easy_CF($field_data);
