@@ -8044,6 +8044,7 @@ header nav .main li a {
   background: url('../img/divider.png') center center;
   height: 84px;
   margin-bottom: -40px;
+  margin-top: 20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
