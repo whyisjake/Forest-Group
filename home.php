@@ -39,17 +39,7 @@ get_header(); ?>
 					<h3>Coming Events</h3>	
 					<h4>See What's Coming Next</h4>
 					
-					<h5>Brown Bag Series</h5>
-					<ul class="unstyled">
-						<li>12:00 – 1:00 on April 25</li>
-						<li><a href="#">More Information</a></li>
-					</ul>
-
-					<h5>Here is another Event</h5>
-					<ul class="unstyled">
-						<li>12:00 – 1:00 on May 12</li>
-						<li><a href="#">More Information</a></li>
-					</ul>
+					<?php fg_upcoming_events(); ?>
 					
 				</div>
 				

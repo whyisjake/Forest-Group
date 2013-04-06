@@ -8028,6 +8028,9 @@ header nav .main li a {
   text-transform: uppercase;
   margin-top: 20px;
 }
+.waist h5 a {
+  color: #76923c;
+}
 .waist li a {
   color: #999;
   text-decoration: underline;
@@ -8104,4 +8107,9 @@ footer h6 {
 }
 footer a {
   color: #7d603e;
+}
+footer .page_item {
+  font-size: 30px;
+  color: #7d603e;
+  font-family: "bebas-neue", sans-serif;
 }

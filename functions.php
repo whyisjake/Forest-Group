@@ -142,3 +142,42 @@ $field_data = array (
 );
 
 $easy_cf = new Easy_CF($field_data);
+
+function fg_upcoming_events() {
+
+	$args = array(
+		'posts_per_page'	=> 2,
+		'no_found_rows' 	=> true,
+		'post_type'			=> 'event'
+	);
+
+	$the_query = new WP_Query( $args );
+	
+	while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+	<h5><a href="<?php the_permalink(); ?>"><?php the_title( ); ?></a></h5>
+	<?php
+		$meta = get_post_meta(get_the_ID(), 'StartTime');
+		if ( !empty( $meta[0] ) ) {
+			echo '<ul class="unstyled"><li>' . $meta[0];
+		}
+		echo ' &mdash; ';
+		$endtime = get_post_meta(get_the_ID(), 'EndTime');
+		if ( !empty( $endtime[0] ) ) {
+			echo $endtime[0];
+		}
+		$date = get_post_meta( get_the_ID(), 'Date' );
+		if ( !empty( $date[0] )) {
+			echo ', ' . $date[0] . '</li>';
+		}
+		$loc = get_post_meta(get_the_ID(), 'Location');
+		if (!empty($loc[0])) {
+			echo '<li>' . $loc[0] . '</li>';
+		}
+	?>
+	
+	<li><a href="<?php the_permalink(); ?>">More Information</a></li>
+	</ul>
+
+	<?php endwhile; wp_reset_postdata();
+}
