@@ -136,7 +136,7 @@ get_header(); ?>
 					
 				</div>
 				
-				<div class="span6 offset1">
+				<div class="span6 offset1 who-are-we">
 					
 					<h3>Who Are We?</h3>
 					
@@ -154,9 +154,10 @@ get_header(); ?>
 					
 				</div>
 				
-				<div class="span12">
+				<div class="span12 center">
 					
-					<a href="#" class="btn btn-success btn-large btn-flat">Upcoming Events</a>
+					<p><a href="#" class="btn btn-success btn-large btn-flat">Upcoming Events</a></p>
+					<p><a href="#" class="norm">Join our email list</a></p>
 					
 				</div>
 				

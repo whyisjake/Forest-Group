@@ -7893,6 +7893,9 @@ a.badge:focus {
 body {
   background-color: #faf7ef;
 }
+.center {
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -8037,10 +8040,26 @@ header nav .main li a {
   padding-top: 40px;
   background-color: #faf7ef;
 }
+.who .arrow {
+  background: url('../img/divider.png') center center;
+  height: 84px;
+  margin-bottom: -40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .who h3 {
   color: #76923c;
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 0px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.who p a.norm {
+  color: #286f4a;
+  text-transform: uppercase;
+}
+.who .who-are-we {
+  margin-bottom: 20px;
 }
