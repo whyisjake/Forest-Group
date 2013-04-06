@@ -124,5 +124,47 @@ get_header(); ?>
 		
 	</div>
 	
+	<div class="who">
+	
+		<div class="container">
+		
+			<div class="row">
+				
+				<div class="span5">
+					
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/peeps.png" alt="Peeps">
+					
+				</div>
+				
+				<div class="span6 offset1">
+					
+					<h3>Who Are We?</h3>
+					
+					<p>We are a group with forestry and conservation expertise working to provide information and resources to forest landowners with the goal of protecting, sustaining and increasing the health of forests, woodlands, and watersheds in Sonoma County. Members represent local and regional land trusts, watershed councils, and state and local agencies.</p>
+					<p>Workshops and lectures include marketing forest products, managing inventories, fish and wildlife habitat, fire safety, land conservation, conservation easements, carbon sequestration, funding information, and more. We offer consultations and referrals.</p>
+					
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				
+				<div class="arrow">
+					
+					
+				</div>
+				
+				<div class="span12">
+					
+					<a href="#" class="btn btn-success btn-large btn-flat">Upcoming Events</a>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
 
 <?php get_footer(); ?>

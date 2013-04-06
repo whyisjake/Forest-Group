@@ -7891,7 +7891,7 @@ a.badge:focus {
   }
 }
 body {
-  background-color: #f1f1f1;
+  background-color: #faf7ef;
 }
 h1,
 h2,
@@ -7904,6 +7904,7 @@ h6 {
 }
 header {
   padding: 20px 0;
+  background-color: #fff;
 }
 header nav {
   font-family: "bebas-neue", sans-serif;
@@ -7961,7 +7962,7 @@ header nav .main li a {
   margin-top: 10%;
 }
 .map {
-  background: url(../img/map.jpg) no-repeat center center;
+  background: url(../img/map.jpg) center center;
   padding: 40px 0;
 }
 .map h3 {
@@ -7998,7 +7999,6 @@ header nav .main li a {
 }
 .waist {
   text-align: center;
-  background-color: #f1f1f1;
   padding-bottom: 20px;
 }
 .waist img {
@@ -8032,4 +8032,15 @@ header nav .main li a {
 .waist .btn {
   width: 230px;
   margin-top: 20px;
+}
+.who {
+  padding-top: 40px;
+  background-color: #faf7ef;
+}
+.who h3 {
+  color: #76923c;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
