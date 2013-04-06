@@ -49,6 +49,7 @@
 					<nav>
 						<ul class="inline pull-right donate">
 							<li><a href="#">Donate</a></li>
+							<li>|</li>
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>

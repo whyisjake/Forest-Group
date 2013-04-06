@@ -7929,7 +7929,7 @@ header nav .main li a {
   color: #333;
 }
 .text-shadow {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 .cover {
   -webkit-background-size: cover;
@@ -7943,7 +7943,7 @@ header nav .main li a {
   color: #f5cf5c;
   font-family: "bebas-neue", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   margin-top: 10%;
   margin-bottom: 0px;
 }
@@ -7961,7 +7961,7 @@ header nav .main li a {
   color: #f5cf5c;
   font-family: "bebas-neue", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   margin-top: 10%;
 }
 .map {
@@ -7974,7 +7974,7 @@ header nav .main li a {
   color: #f5cf5c;
   font-family: "bebas-neue", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   margin-top: 10%;
   margin-bottom: 0px;
   margin: 0px 0px 20px;
@@ -7985,7 +7985,7 @@ header nav .main li a {
   color: #f5cf5c;
   font-family: "bebas-neue", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   margin-top: 10%;
   margin-bottom: 0px;
   font-size: 24px;
@@ -8014,14 +8014,14 @@ header nav .main li a {
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 0px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 .waist h4 {
   color: #76923c;
   font-size: 22px;
   font-weight: 400;
   margin: 0 0 10px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 .waist h5 {
   font-family: sans-serif;
@@ -8055,7 +8055,7 @@ header nav .main li a {
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 0px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 .who p a.norm {
   color: #286f4a;
@@ -8078,5 +8078,27 @@ header nav .main li a {
   color: #76923c;
   font-family: "bebas-neue", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+footer {
+  background-color: #392a19;
+  color: #e2d8ba;
+  padding: 30px 0;
+}
+footer .temp {
+  font-size: 40px;
+  margin-top: 20px;
+  display: block;
+}
+footer h1,
+footer h2,
+footer h3 {
+  color: #f5cf5c;
+  font-size: 30px;
+}
+footer h4,
+footer h5,
+footer h6 {
+  color: #7d603e;
+  font-size: 30px;
 }
