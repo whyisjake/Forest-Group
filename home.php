@@ -28,7 +28,7 @@ get_header(); ?>
 				<div class="span4">
 					
 					<h3>Resources</h3>
-					<h4>Need Tagline</h4>
+					<h4>Get More Information</h4>
 					
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/leaves.jpg" alt="Leaves">
 					

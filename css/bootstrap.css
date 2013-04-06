@@ -8000,6 +8000,9 @@ header nav .main li a {
   font-size: 18px;
   margin-bottom: 15px;
 }
+.map ul li a {
+  color: #e0d1a3;
+}
 .waist {
   text-align: center;
   padding-bottom: 20px;
@@ -8084,6 +8087,9 @@ header nav .main li a {
   text-align: center;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
+.topo p a {
+  color: #43551d;
+}
 footer {
   background-color: #392a19;
   color: #e2d8ba;
@@ -8107,7 +8113,6 @@ footer h5,
 footer h6 {
   color: #7d603e;
   font-size: 30px;
-  font-family: "bebas-neue", sans-serif;
 }
 footer a {
   color: #7d603e;
