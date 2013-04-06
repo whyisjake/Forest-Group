@@ -8015,6 +8015,7 @@ header nav .main li a {
   font-weight: 400;
   margin-bottom: 0px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  font-family: "bebas-neue", sans-serif;
 }
 .waist h4 {
   color: #76923c;
@@ -8099,12 +8100,14 @@ footer h2,
 footer h3 {
   color: #f5cf5c;
   font-size: 30px;
+  font-family: "bebas-neue", sans-serif;
 }
 footer h4,
 footer h5,
 footer h6 {
   color: #7d603e;
   font-size: 30px;
+  font-family: "bebas-neue", sans-serif;
 }
 footer a {
   color: #7d603e;
