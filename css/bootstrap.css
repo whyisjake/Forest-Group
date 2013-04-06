@@ -7897,10 +7897,14 @@ h4,
 h5,
 h6 {
   font-family: "bebas-neue", sans-serif;
+  line-height: 100%;
+}
+header {
+  padding: 20px 0;
 }
 header nav {
   font-family: "bebas-neue", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
 }
 header nav li a {
   color: #7d603e;
@@ -7911,14 +7915,76 @@ header nav .top {
 header nav .main {
   margin-top: 10px;
 }
+header nav .main li {
+  font-size: 32px;
+}
 header nav .main li a {
   color: #333;
 }
-.hero {
-  height: 400px;
-  background: url(../img/bg.jpg) no-repeat center center fixed;
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.hero {
+  height: 400px;
+  background: url(../img/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero p {
+  font-size: 50px;
+  line-height: 100%;
+  color: #f5cf5c;
+  font-family: "bebas-neue", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-top: 10%;
+}
+.map {
+  background: url(../img/map.jpg) no-repeat center center;
+  min-height: 400px;
+}
+.waist {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-bottom: 20px;
+}
+.waist img {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px #ccc;
+}
+.waist h3 {
+  color: #76923c;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.waist h4 {
+  color: #76923c;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.waist h5 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.waist li a {
+  color: #999;
+  text-decoration: underline;
+}
+.waist .btn {
+  width: 230px;
+  margin-top: 20px;
 }

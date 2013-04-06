@@ -61,7 +61,7 @@
 							<li><a href="#">About Us</a></li>
 						</ul>
 					</nav>
-					
+					<div class="clearfix"></div>
 				</div>
 			
 			</div>
