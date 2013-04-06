@@ -95,7 +95,30 @@ get_header(); ?>
 		
 		<div class="container">
 			
+			<h3>Workshops, lectures, funding information, and technical expertise</h3>
+			<p><small>on forestry and conservation through our volunteers and interagency associations including:</small></p>
 			
+			<div class="row">
+				<div class="span6">
+					<ul>
+						<li>Sonoma County Agricultural Preservation &amp; Open Space District</li>
+						<li>Sonoma Land Trust</li>
+						<li>Santa Rosa Junior College</li>
+						<li>CAL FIRE</li>
+					</ul>
+				</div>
+				<div class="span6">
+					
+					<ul>
+						<li>University of California Cooperative Extension</li>
+						<li>Federal and California state agencies </li>
+						<li>resource conservation districts</li>
+						<li>watershed councils</li>
+					</ul>
+					
+				</div>
+				
+			</div>
 			
 		</div>
 		
