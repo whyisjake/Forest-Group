@@ -59,19 +59,19 @@ get_header(); ?>
 				
 				<div class="span4">
 					
-					<a href="#" class="btn btn-success">Learn More</a>
+					<a href="<?php bloginfo(); ?>/resources/" class="btn btn-success">Learn More</a>
 					
 				</div>
 				
 				<div class="span4">
 					
-					<a href="#" class="btn btn-success">View All Events</a>
+					<a href="<?php bloginfo(); ?>/events/" class="btn btn-success">View All Events</a>
 					
 				</div>
 				
 				<div class="span4">
 					
-					<a href="#" class="btn btn-success">Contact Us</a>
+					<a href="<?php bloginfo(); ?>/contact-us/" class="btn btn-success">Contact Us</a>
 					
 				</div>
 				

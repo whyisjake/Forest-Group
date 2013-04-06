@@ -48,18 +48,18 @@
 					
 					<nav>
 						<ul class="inline pull-right donate">
-							<li><a href="#">Donate</a></li>
+							<li><a href="<?php bloginfo(); ?>/contact-us/">Donate</a></li>
 							<li>|</li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="<?php bloginfo(); ?>/contact-us/">Contact</a></li>
 						</ul>
 					</nav>
 					<div class="clearfix"></div>
 					<nav>
 						<ul class="inline pull-right main">
-							<li><a href="#">Events</a></li>
-							<li><a href="#">What We Do</a></li>
-							<li><a href="#">Resources</a></li>
-							<li><a href="#">About Us</a></li>
+							<li><a href="<?php bloginfo(); ?>/events/">Events</a></li>
+							<li><a href="<?php bloginfo(); ?>/what-we-do/">What We Do</a></li>
+							<li><a href="<?php bloginfo(); ?>/resources/">Resources</a></li>
+							<li><a href="<?php bloginfo(); ?>/about-us/">About Us</a></li>
 						</ul>
 					</nav>
 					<div class="clearfix"></div>
