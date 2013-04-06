@@ -45,8 +45,8 @@ get_header(); ?>
 				
 				<div class="span4">
 					
-					<h3>Resources</h3>
-					<h4>Need Tagline</h4>
+					<h3>Event Sign-Up</h3>
+					<h4>Request a Workshop</h4>
 					
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/party-people.jpg" alt="Leaves">
 					
@@ -91,19 +91,19 @@ get_header(); ?>
 			<div class="row">
 				<div class="span4 offset2">
 					<ul>
-						<li>Sonoma County Agricultural Preservation &amp; Open Space District</li>
-						<li>Sonoma Land Trust</li>
-						<li>Santa Rosa Junior College</li>
-						<li>CAL FIRE</li>
+						<li><a target="_blank" href="http://www.sonomaopenspace.org/">Sonoma County Agricultural Preservation &amp; Open Space District</a></li>
+						<li><a target="_blank" href="http://www.sonomalandtrust.org/">Sonoma Land Trust</a></li>
+						<li><a target="_blank" href="http://www.santarosa.edu">Santa Rosa Junior College</a></li>
+						<li><a target="_blank" href="http://www.fire.ca.gov/">CAL FIRE</a></li>
 					</ul>
 				</div>
 				<div class="span4">
 					
 					<ul>
-						<li>University of California Cooperative Extension</li>
-						<li>Federal and California state agencies </li>
-						<li>resource conservation districts</li>
-						<li>watershed councils</li>
+						<li><a target="_blank" href="http://ucanr.edu/">University of California Cooperative Extension</a></li>
+						<li><a target="_blank" href="http://carcd.org/">Resource Conservation Districts</a></li>
+						<li><a target="_blank" href="http://grwc.info">Watershed Councils</a></li>
+						<li><a target="_blank" href="http://www.firesafesonoma.org/main/">Fire Safe Council</a></li>
 					</ul>
 					
 				</div>
@@ -163,7 +163,7 @@ get_header(); ?>
 			
 			<div class="span12">
 				
-				<p>More than 93% of Sonoma County's conifer forests and oak woodlands (514,000 acres) are parcels smaller than 100 acres. Sudden Oak Death occurs on about 80,000 acres.</p>	
+				<p>Sonoma County's conifer forests and oak woodlands cover 514,000 acres. More than 93% of parcels are smaller than 100 acres. <a href="<?php echo bloginfo( 'url' ); ?>/wp-content/uploads/2013/04/SUDDEN-OAK-DEATH-FACT-SHEET.doc">Sudden Oak Death</a> occurs on about 80,000 acres.</p>
 				
 			</div>
 			
