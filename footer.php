@@ -11,9 +11,15 @@
 
  	<footer>
  		
- 		<div class="content">
+ 		<div class="container">
  			
- 			
+ 			<div class="row">
+ 				
+ 				<div class="span3">
+ 					<?php fg_get_weather(); ?>
+ 				</div>
+ 				
+ 			</div>
  			
  		</div>
  		

@@ -28,16 +28,43 @@
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
-<body class="<?php body_class(); ?>">
+<body <?php body_class(); ?>>
 		
 	<header>
 		
 		<div class="container">
+		
+			<div class="row">
 			
-			<h1>
-				<a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-			</h1>
+				<div class="span4">
+					
+					<h1><a href="<?php bloginfo( 'url' ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sonoma-forest-group.png" alt="Sonoma Forest Conservation Working Group"></a></h1>
+					
+				</div>
+				
+				<div class="span8">
+					
+					<nav>
+						<ul class="inline pull-right donate">
+							<li><a href="#">Donate</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="clearfix"></div>
+					<nav>
+						<ul class="inline pull-right main">
+							<li><a href="#">Events</a></li>
+							<li><a href="#">What We Do</a></li>
+							<li><a href="#">Resources</a></li>
+							<li><a href="#">About Us</a></li>
+						</ul>
+					</nav>
+					
+				</div>
+			
+			</div>
 			
 		</div>
 		
