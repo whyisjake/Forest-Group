@@ -8,6 +8,24 @@
  *
  */
  ?>
+ 	
+ 	<div class="tagline">
+ 		
+ 		<div class="container">
+ 			
+ 			<div class="row">
+ 				
+ 				<div class="span12">
+ 					
+ 					<p class="center"><em>Protecting forests across landscapes and through generations&hellip;</em></p>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 			
+ 		</div>
+ 		
+ 	</div>
 
  	<footer>
  		
