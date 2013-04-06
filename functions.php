@@ -46,16 +46,17 @@ function fg_get_weather() {
 	$json = json_decode($contents);
 
 	echo '<h3>Right Now</h3>';
-	echo '<canvas id="icon1" width="64" height="64"></canvas> ' . intval( $json->currently->temperature );
+	echo '<canvas id="icon1" width="100" height="100"></canvas> ' . intval( $json->currently->temperature ) . '&deg;';
 	echo '<h3>Next Hour</h3>';
 	echo esc_html( $json->minutely->summary );
 	echo '<h3>Next 24 Hour</h3>';
 	echo esc_html( $json->hourly->summary );
 	echo '<h3>Next Week</h3>';
 	echo esc_html( $json->daily->summary );
-	echo '<script>
+	echo '
+	<script>
 		var skycons = new Skycons({"color": "grey"});
-		skycons.add("icon1", Skycons.' . esc_js( strtoupper( $json->currently->icon ) ). ');
+		skycons.add("icon1", Skycons.' . esc_js( strtoupper( str_replace('-', '_', $json->currently->icon ) ) ) . ');
 		skycons.play();
 	</script>';
 	

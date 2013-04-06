@@ -167,5 +167,19 @@ get_header(); ?>
 		
 	</div>
 	
+	<div class="topo">
+	
+		<div class="container">
+			
+			<div class="span12">
+				
+				<p>More than 93% of Sonoma County's conifer forests and oak woodlands (514,000 acres) are parcels smaller than 100 acres. Sudden Oak Death occurs on about 80,000 acres.</p>	
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
 
 <?php get_footer(); ?>
