@@ -85,11 +85,11 @@ get_header(); ?>
 		
 		<div class="container">
 			
-			<h3>Workshops, lectures, funding information, and technical expertise</h3>
+			<h3>Workshops, lectures, funding <div>information and technical expertise</div></h3>
 			<p><small>on forestry and conservation through our volunteers and interagency associations including:</small></p>
 			
 			<div class="row">
-				<div class="span6">
+				<div class="span4 offset2">
 					<ul>
 						<li>Sonoma County Agricultural Preservation &amp; Open Space District</li>
 						<li>Sonoma Land Trust</li>
@@ -97,7 +97,7 @@ get_header(); ?>
 						<li>CAL FIRE</li>
 					</ul>
 				</div>
-				<div class="span6">
+				<div class="span4">
 					
 					<ul>
 						<li>University of California Cooperative Extension</li>
