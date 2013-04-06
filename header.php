@@ -48,9 +48,9 @@
 					
 					<nav>
 						<ul class="inline pull-right donate">
-							<li><a href="<?php bloginfo('url'); ?>/contact-us/">Donate</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/contact/">Donate</a></li>
 							<li>|</li>
-							<li><a href="<?php bloginfo('url'); ?>/contact-us/">Contact</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/contact/">Contact</a></li>
 						</ul>
 					</nav>
 					<div class="clearfix"></div>
