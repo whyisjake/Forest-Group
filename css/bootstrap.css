@@ -7890,6 +7890,9 @@ a.badge:focus {
     overflow: visible !important;
   }
 }
+body {
+  background-color: #f1f1f1;
+}
 h1,
 h2,
 h3,

@@ -58,7 +58,7 @@ get_header(); ?>
 					<h3>Resources</h3>
 					<h4>Need Tagline</h4>
 					
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/leaves.jpg" alt="Leaves">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/party-people.jpg" alt="Leaves">
 					
 				</div>
 				<div class="clearfix"></div>
