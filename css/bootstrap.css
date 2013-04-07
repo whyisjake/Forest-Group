@@ -7893,6 +7893,12 @@ a.badge:focus {
 body {
   background-color: #faf7ef;
 }
+a {
+  color: #76923c;
+}
+a:hover {
+  color: #596e2d;
+}
 .center {
   text-align: center;
 }
