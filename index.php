@@ -39,11 +39,7 @@ get_header(); ?>
 				
 			</div>
 			
-			<div class="span4">
-				
-				<h3>Sidebar</h3>
-				
-			</div>
+			<?php get_sidebar(); ?>
 			
 		</div>
 		

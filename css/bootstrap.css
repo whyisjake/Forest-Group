@@ -8136,8 +8136,42 @@ footer .page_item {
 }
 .content {
   padding-top: 40px;
+  font-family: georgia, serif;
+  font-size: 16px;
+  line-height: 140%;
 }
 .content h1 {
   color: #76923c;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+.content h1 a {
+  color: #76923c;
+}
+.content h3 {
+  color: #7d603e;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.widget {
+  background-color: #fff;
+  padding: 20px;
+}
+.widget .nav {
+  margin-bottom: 0px;
+  background-color: #faf7ef;
+  padding: 10px 0;
+  text-align: center;
+}
+.widget .nav li {
+  border-bottom: 2px solid #fff;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 10px;
+  font-family: "bebas-neue", sans-serif;
+}
+.widget .nav li a {
+  color: #76923c;
+}
+.widget .nav li:last-child {
+  border: 0px;
 }

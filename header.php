@@ -56,7 +56,7 @@
 					<div class="clearfix"></div>
 					<nav>
 						<ul class="inline pull-right main">
-							<li><a href="<?php bloginfo('url'); ?>/events/">Events</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/event/">Events</a></li>
 							<li><a href="<?php bloginfo('url'); ?>/what-we-do/">What We Do</a></li>
 							<li><a href="<?php bloginfo('url'); ?>/resources/">Resources</a></li>
 							<li><a href="<?php bloginfo('url'); ?>/about-us/">About Us</a></li>

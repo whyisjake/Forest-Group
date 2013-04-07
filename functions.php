@@ -181,7 +181,3 @@ function fg_upcoming_events() {
 
 	<?php endwhile; wp_reset_postdata();
 }
-
-function vip_allow_title_orphans() {
-	remove_filter('the_title', 'widont');
-}
