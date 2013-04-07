@@ -25,7 +25,7 @@ get_header(); ?>
 						
 					<?php the_excerpt(); ?>
 					
-					<p><a href="<?php the_permalink(); ?>"><span class="label label-success">Read More...</span></a></p>
+					<p><a href="<?php the_permalink(); ?>"><span class="label label-success">More about this event...</span></a></p>
 					
 				<?php endwhile; ?>
 				
