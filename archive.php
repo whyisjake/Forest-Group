@@ -15,6 +15,10 @@ get_header(); ?>
 			
 			<div class="span8">
 			
+				<?php if (is_archive( 'event' )) {
+					echo '<img src=http://forestconservation.iamawimp.org/wp-content/uploads/2013/04/events-header.jpg">';
+				} ?>
+			
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					
 					<?php the_title( '<h1><a href="' . get_permalink() . '">', '</a></h1>' ); ?>
