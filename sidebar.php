@@ -30,11 +30,11 @@
 			
 			<ul class="nav">
 				
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#bag">Brown Bag Lecture Series</li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#forest">Forest Stewardship Workshops</li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#house">House Meetings</li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#monthly">Monthly Meetings</li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#conf">Forest Conservation Conference</li>
+				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#bag">Brown Bag Lecture Series</a></li>
+				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#forest">Forest Stewardship Workshops</a></li>
+				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#house">House Meetings</a></li>
+				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#monthly">Monthly Meetings</a></li>
+				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#conf">Forest Conservation Conference</a></li>
 				
 			</ul>
 			
