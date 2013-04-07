@@ -25,6 +25,8 @@ get_header(); ?>
 						
 					<?php the_excerpt(); ?>
 					
+					<p><a href="<?php the_permalink(); ?>"><span class="label label-success">Read More...</span></a></p>
+					
 				<?php endwhile; ?>
 				
 					<?php // comments_template(); ?>
