@@ -146,8 +146,8 @@ get_header(); ?>
 				
 				<div class="span12 center">
 					
-					<p><a href="#" class="btn btn-success btn-large btn-flat">Upcoming Events</a></p>
-					<p><a href="#" class="norm">Join our email list</a></p>
+					<p><a href="/event/" class="btn btn-success btn-large btn-flat">Upcoming Events</a></p>
+					<p><a href="#mc_embed_signup" class="norm">Join our email list</a></p>
 					
 				</div>
 				
