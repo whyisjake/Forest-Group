@@ -8152,6 +8152,9 @@ footer .page_item {
   font-size: 30px;
   margin-bottom: 16px;
 }
+.content a {
+  color: #76923c;
+}
 .widget {
   background-color: #fff;
   padding: 20px;
