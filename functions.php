@@ -11,9 +11,6 @@
 /*
  * Bring in WordPress.com plugins. Because we can...
  */
-
-require_once( WP_CONTENT_DIR . '/themes/vip/plugins/vip-init.php' );
-wpcom_vip_load_plugin( 'easy-custom-fields' );
  
 function fg_enqueue_scripts() {
 	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.js', array( 'jquery' ), false, true );
