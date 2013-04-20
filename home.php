@@ -13,7 +13,7 @@ get_header(); ?>
 		
 		<div class="container">
 		
-			<p>Helping private landowners in Sonoma County sustain healthy forests, oak woodlands and watersheds.</p>	
+			<h1>Helping private landowners in Sonoma County sustain healthy forests, oak woodlands and watersheds.</h1>
 			
 		</div>
 		

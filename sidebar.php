@@ -8,13 +8,13 @@
 			
 			<ul class="nav">
 				
-				<li><a href="http://forestconservation.iamawimp.org/resources/#fire">Fire Safety</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#forests">Forests</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#funding">Funding</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#watershed">Watersheds</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#roads">Roads</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#maps">Maps</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/resources/#conference">Conference</a></li>
+				<li><a href="http://sonomaforests.org/resources/#fire">Fire Safety</a></li>
+				<li><a href="http://sonomaforests.org/resources/#forests">Forests</a></li>
+				<li><a href="http://sonomaforests.org/resources/#funding">Funding</a></li>
+				<li><a href="http://sonomaforests.org/resources/#watershed">Watersheds</a></li>
+				<li><a href="http://sonomaforests.org/resources/#roads">Roads</a></li>
+				<li><a href="http://sonomaforests.org/resources/#maps">Maps</a></li>
+				<li><a href="http://sonomaforests.org/resources/#conference">Conference</a></li>
 				
 			</ul>
 			
@@ -30,11 +30,11 @@
 			
 			<ul class="nav">
 				
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#bag">Brown Bag Lecture Series</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#forest">Forest Stewardship Workshops</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#house">House Meetings</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#monthly">Monthly Meetings</a></li>
-				<li><a href="http://forestconservation.iamawimp.org/what-we-do/#conf">Forest Conservation Conference</a></li>
+				<li><a href="http://sonomaforests.org/what-we-do/#bag">Brown Bag Lecture Series</a></li>
+				<li><a href="http://sonomaforests.org/what-we-do/#forest">Forest Stewardship Workshops</a></li>
+				<li><a href="http://sonomaforests.org/what-we-do/#house">House Meetings</a></li>
+				<li><a href="http://sonomaforests.org/what-we-do/#monthly">Monthly Meetings</a></li>
+				<li><a href="http://sonomaforests.org/what-we-do/#conf">Forest Conservation Conference</a></li>
 				
 			</ul>
 			

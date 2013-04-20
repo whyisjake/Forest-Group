@@ -16,7 +16,7 @@ get_header(); ?>
 			<div class="span8">
 			
 				<?php if (is_archive( 'event' )) {
-					echo '<img src="http://forestconservation.iamawimp.org/wp-content/uploads/2013/04/events-header.jpg">';
+					echo '<img src="http://sonomaforests.org/wp-content/uploads/2013/04/events-header.jpg">';
 				} ?>
 			
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
