@@ -27,16 +27,16 @@ get_header(); ?>
 				
 				<div class="span4">
 					
-					<h3>Resources</h3>
+					<h3><a href="<?php bloginfo('url'); ?>/resources/">Resources</a></h3>
 					<h4>Get More Information</h4>
 					
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/leaves.jpg" alt="Leaves">
+					<a href="<?php bloginfo('url'); ?>/resources/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/leaves.jpg" alt="Leaves"></a>
 					
 				</div>
 				
 				<div class="span4">
 					
-					<h3>Coming Events</h3>	
+					<h3><a href="<?php bloginfo('url'); ?>/event/">Coming Events</a></h3>
 					<h4>See What's Coming Next</h4>
 					
 					<?php fg_upcoming_events(); ?>
@@ -45,10 +45,10 @@ get_header(); ?>
 				
 				<div class="span4">
 					
-					<h3>Event Sign-Up</h3>
+					<h3><a href="<?php bloginfo('url'); ?>/contact/">Event Sign-Up</a></h3>
 					<h4>Request a Workshop</h4>
 					
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/party-people.jpg" alt="Leaves">
+					<a href="<?php bloginfo('url'); ?>/contact/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/party-people.jpg" alt="Leaves"></a>
 					
 				</div>
 				<div class="clearfix"></div>

@@ -8019,12 +8019,14 @@ header nav .main li a {
   box-shadow: 0px 0px 10px 5px #ccc;
 }
 .waist h3 {
-  color: #76923c;
   font-size: 36px;
   font-weight: 400;
   margin-bottom: 0px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   font-family: "bebas-neue", sans-serif;
+}
+.waist h3 a {
+  color: #76923c;
 }
 .waist h4 {
   color: #76923c;
