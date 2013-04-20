@@ -65,13 +65,13 @@ get_header(); ?>
 				
 				<div class="span4">
 					
-					<a href="<?php bloginfo('url'); ?>/events/" class="btn btn-success">View All Events</a>
+					<a href="<?php bloginfo('url'); ?>/event/" class="btn btn-success">View All Events</a>
 					
 				</div>
 				
 				<div class="span4">
 					
-					<a href="<?php bloginfo('url'); ?>/contact-us/" class="btn btn-success">Contact Us</a>
+					<a href="<?php bloginfo('url'); ?>/contact/" class="btn btn-success">Contact Us</a>
 					
 				</div>
 				

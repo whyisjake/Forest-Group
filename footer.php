@@ -62,7 +62,7 @@
  					<h3>Join our email list</h3>
  					
 					<div id="mc_embed_signup">
-						<form action="http://bengrace.us4.list-manage.com/subscribe/post?u=5901218fd35e53ddbff69e5e6&amp;id=3c0b94f0a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<form action="http://sonomaforests.us4.list-manage.com/subscribe/post?u=dbe5f15aa4259988b741354f7&amp;id=edbc7edb26" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							<input type="text" value="" name="NAME" class="name" id="mce-NAME" placeholder="Name" required>
 							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
 							<div class="clear">
@@ -74,6 +74,11 @@
  				</div>
  				
  			</div>
+ 			
+ 			<div class="wimp center">
+				<p><a href="http://gives.beawimp.org" target="_blank"><img style="vertical-align:middle" src="<?php echo get_stylesheet_directory_uri(); ?>/img/WIMPgivesFooter.png" width="48" height="34" border="0" scale="0"></a> Website donated and built by <a href="htp://gives.beawimp.org" target="_blank">WIMPgives</a>.</p>
+				<p>&copy; 2013 Sonoma County Forest Conservation Working Group &mdash; All Rights Reserved.</p>
+			</div>
  			
  		</div>
  		

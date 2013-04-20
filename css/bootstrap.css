@@ -8046,7 +8046,7 @@ header nav .main li a {
   text-decoration: underline;
 }
 .waist .btn {
-  width: 230px;
+  width: 50%;
   margin-top: 20px;
 }
 .who {
@@ -8201,4 +8201,7 @@ footer .page_item {
 }
 .wp-image-104 {
   margin-right: 20px;
+}
+.wimp {
+  margin: 20px 0;
 }

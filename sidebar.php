@@ -53,13 +53,9 @@
 						<input type="email" value="" name="EMAIL" class="input-medium" id="mce-EMAIL" placeholder="email address" required> <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></form>
 					</form>
 				</li>
-				<!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
-				
-				<!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
 			
-			</div>
-
-
+			</ul>
+		
 		</div>
 		
 	</div>
