@@ -43,7 +43,12 @@ function fg_get_weather() {
 
 	$url = 'https://api.forecast.io/forecast/7be55cf6cb9f72bac545256af7ade238/38.4578,-122.6853';
 	//$contents = wpcom_vip_file_get_contents( $url, 3, 900 );
-	$contents = file_get_contents( $url );
+	$contents = wp_cache_get( 'weather' );
+	if ( false === $contents ) {
+		$contents = file_get_contents( $url );
+		wp_cache_set( 'weather', $contents, 'none', 60 * 15 );
+	} 
+	// Do something with $result;
 	$json = json_decode($contents);
 
 	echo '<h3>Right Now</h3>';
