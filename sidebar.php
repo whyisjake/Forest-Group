@@ -42,4 +42,26 @@
 		
 	</div>
 	
+	<div class="widget">
+		
+		<div class="inner">
+			<h3><a href="http://eepurl.com/yclJ5">Subscribe to our newsletter</a></h3>
+			<ul class="nav" style="margin-top:20px">
+				
+				<li>
+					<form class="form form-inline" action="http://sonomaforests.us4.list-manage.com/subscribe/post?u=dbe5f15aa4259988b741354f7&amp;id=edbc7edb26" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<input type="email" value="" name="EMAIL" class="input-medium" id="mce-EMAIL" placeholder="email address" required> <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></form>
+					</form>
+				</li>
+				<!-- // MAILCHIMP SUBSCRIBE CODE \\ -->
+				
+				<!-- \\ MAILCHIMP SUBSCRIBE LINK // -->
+			
+			</div>
+
+
+		</div>
+		
+	</div>
+	
 </div>

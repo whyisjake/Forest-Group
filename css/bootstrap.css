@@ -7955,7 +7955,7 @@ header nav .main li a {
 }
 .hero {
   height: 400px;
-  background: url(../img/bg.jpg) no-repeat center center;
+  background: url(../img/bg.jpg) no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
